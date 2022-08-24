@@ -1,0 +1,165 @@
+body {
+    font-family: Tahoma;
+    font-size: 16px;
+    width: 1500px;
+    margin: 0px auto;
+}
+
+#menu_top{
+    background: #c79090;
+    height: 40px;
+}
+
+#menu_top ul {
+    margin: 0px;
+    padding-top: 0px;
+}
+
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid #f1f1ff;
+}
+
+.scroll-to-section:hover {
+    background-color: #666;
+}
+
+#menu_top ul li a.active {
+    background: rgb(204, 204, 204);
+}
+
+#banner img {
+    width: 1500px;
+    height: 900px;
+}
+
+.section .section-heading span {     
+    display: block;
+    margin-top: 30px; 
+    color: red;
+}
+
+.section .section-heading h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+
+/* Sách công nghệ STAR*/ 
+
+
+#sachcongnghe40 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-bottom: 3px dotted #eee;
+    width: 100%;
+}
+
+#sachcongnghe40 .section-heading {
+    margin-bottom: 120px;
+    width: 100%;
+}
+
+#sachcongnghe40 .list-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sachcongnghe40 .item {
+    display: inline-block;
+    padding: 8px 8px;
+    margin: 16px auto;
+    border: 1px solid #ddd;
+}
+
+#sachcongnghe40 .item-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#sachcongnghe40 .item .down-content {
+    padding-top: 30px;
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+}
+
+
+#sachcongnghe40 .item .down-content h4 {
+    font-size: 22px;
+    color: #003cff;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+
+
+/* Sách công nghệ END*/ 
+
+
+/* Sách tâm lý STAR*/ 
+
+
+#sachtamly {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-bottom: 3px dotted #eee;
+    width: 100%;
+}
+
+#sachtamly .section-heading {
+    margin-bottom: 120px;
+    width: 100%;
+}
+
+#sachtamly .list-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sachtamly .item {
+    display: inline-block;
+    padding: 8px 8px;
+    margin: 16px auto;
+    border: 1px solid #ddd;
+}
+
+#sachtamly .item-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#sachtamly .item .down-content {
+    padding-top: 30px;
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+}
+
+
+#sachtamly .item .down-content h4 {
+    font-size: 22px;
+    color: #003cff;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* Sách tâm lý END*/ 
